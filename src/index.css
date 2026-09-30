@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1f1f1f;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #61dafb;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 8px 0 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.task-card {
+  background: #2d2d2d;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dashboard-cards div {
+  background: #2d2d2d;
+  padding: 20px;
+  min-width: 150px;
+  border-radius: 8px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+}
